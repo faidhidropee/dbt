@@ -29,3 +29,5 @@ LEFT JOIN domain_memberships dm ON u.id = dm.entity_id
 LEFT JOIN domains d ON dm.domain_id = d.id
 
 WHERE dm.domain_entity_type_id = 1
+
+LIMIT 100
